@@ -1,0 +1,26 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+#app {
+  display: grid;
+  grid-template-areas: "number number" "stop start";
+  gap: 1rem;
+}
+#app .number {
+  grid-area: number;
+  font-size: 10rem;
+  line-height: 1;
+  color: #8a8a8a;
+  font-family: "Fira Code";
+}
+#app .stop {
+  grid-area: "stop";
+}
+#app .start {
+  grid-area: "start";
+}
+
+/*# sourceMappingURL=style.css.map */
